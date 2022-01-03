@@ -17,3 +17,11 @@ class LoginPageLocators():
     SIGN_UP_PASSWORD_INPUT = (By.CSS_SELECTOR, "input#id_registration-password1")
     SIGN_UP_REPEAT_PASSWORD_INPUT = (By.CSS_SELECTOR, "input#id_registration-password2")
     SIGN_UP_BUTTON = (By.CSS_SELECTOR, "button[name=registration_submit]")
+
+
+class ProductPageLocators():
+    PRODUCT_ADD_TO_BASKET = (By.CSS_SELECTOR, "form.add-to-basket")
+    PRODUCT_ADDEED_TO_BASKET = (By.CSS_SELECTOR, ".alertinner>strong")
+    PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
+    PRODUCT_BASKET_PRICE = (By.CSS_SELECTOR, "div.alertinner:nth-child(2)>p>strong")
+
