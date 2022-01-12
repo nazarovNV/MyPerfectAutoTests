@@ -24,4 +24,6 @@ class ProductPageLocators():
     PRODUCT_ADDEED_TO_BASKET = (By.CSS_SELECTOR, ".alertinner>strong")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
     PRODUCT_BASKET_PRICE = (By.CSS_SELECTOR, "div.alertinner:nth-child(2)>p>strong")
+    PRODUCT_TO_ADD = (By.CSS_SELECTOR, "div.product_main>h1")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.product_main>h1")
 
