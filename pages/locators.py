@@ -27,3 +27,8 @@ class ProductPageLocators():
     PRODUCT_TO_ADD = (By.CSS_SELECTOR, "div.product_main>h1")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
 
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+
