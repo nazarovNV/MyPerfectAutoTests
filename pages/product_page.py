@@ -8,7 +8,7 @@ class ProductPage(BasePage):
         button_add_to_basket.click()
 
     def is_good_in_basket(self, what):
-        good_name_in_basket = self.browser.find_element(*ProductPageLocators.PRODUCT_ADDEED_TO_BASKET).text
+        good_name_in_basket = self.browser.find_element(*ProductPageLocators.PRODUCT_ADDED_TO_BASKET).text
         assert what == good_name_in_basket, f"Where is no '{what}' in basket. Checked at site {self.url}"
 
     def is_good_price_equal_basket_price(self, price):
