@@ -1,2 +1,2 @@
-# MyPerfectAutoTests
-Learning PageObject pattern 
+# PageObject pattern
+Изучаю паттерн PageObject

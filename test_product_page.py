@@ -52,7 +52,7 @@ def test_message_disappeared_after_adding_product_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer5"
     page = ProductPage(browser, link)
     page.open()
-    page.add_to_card()
+    page.add_to_c.ard()
     page.solve_quiz_and_get_code()
     page.should_dissapear_of_success_message()
 
